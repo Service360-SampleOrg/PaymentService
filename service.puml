@@ -1,0 +1,17 @@
+' PaymentService
+@startuml
+
+node PaymentService {
+}
+
+cloud PaymentProvider1 {
+}
+
+cloud PaymentProvider2 {
+}
+
+PaymentService --> PaymentProvider1
+PaymentService --> PaymentProvider2
+
+
+@enduml
