@@ -5,9 +5,9 @@
 Gateway to variety of payment providers. Provides unified interface.
 Handles async payment responses.
 
-Owner|Tier|Status|Landscape|Contexts
----|---|---|---|---
-CheckoutTeam|Tier1|Prod|Web|Payments, Orders, Customers
+Owner|Tier|Status|Contexts
+---|---|---|---
+CheckoutTeam|Tier1|Prod|Web,Payments, Orders, Customers
 
 ##### Deprecated
 
