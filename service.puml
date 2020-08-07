@@ -4,6 +4,9 @@
 node PaymentService {
 }
 
+node LegacyMonolithApp {
+}
+
 cloud PaymentProvider1 {
 }
 
@@ -12,6 +15,6 @@ cloud PaymentProvider2 {
 
 PaymentService --> PaymentProvider1
 PaymentService --> PaymentProvider2
-
+PaymentService --> LegacyMonolithApp
 
 @enduml
